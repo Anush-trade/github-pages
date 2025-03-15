@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-Minute Trading Strategy</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #222; color: white; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; }
+        .slide { 
+            padding: 30px; 
+            max-width: 900px; 
+            margin: 40px auto; 
+            border-radius: 10px; 
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1); 
+            color: white; 
+            font-size: 18px;
+            line-height: 1.6;
+            position: relative;
+        }
+        .slide:nth-child(odd) { background: #1E3A8A; }
+        .slide:nth-child(even) { background: #047857; }
+        .slide h2 {
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+        }
+        .slide h2::before {
+            content: '\25CF';
+            font-size: 28px;
+            margin-right: 10px;
+            color: #FFD700;
+        }
+        .navigation { 
+            text-align: center; 
+            padding: 15px; 
+            font-size: 18px; 
+        }
+        .navigation a {
+            color: #E63946;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .navigation a:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 20px; background: #222; color: white; margin-top: 30px; }
+        .contact-form { display: flex; flex-direction: column; }
+        .contact-form input, .contact-form textarea { margin: 10px 0; padding: 12px; width: 100%; border: none; border-radius: 5px; }
+        .contact-form button { background: #E63946; color: white; border: none; padding: 12px; cursor: pointer; border-radius: 5px; font-size: 16px; }
+        .contact-form button:hover { background: #D62839; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>1-Minute Trading Strategy</h1>
+    </header>
+    
+    <div class="navigation">
+        <p>Please read all the slides thoroughly, especially the <a href="#slide9">9th</a> and <a href="#slide10">10th</a> ones.</p>
+    </div>
+    
+    <section class="slide" id="slide1">
+        <h2>Introduction</h2>
+        <p>I am Anush, and I have been trading for the past 3 years. After extensive research and comparison with other trading strategies (such as Supply and Demand), I developed this **Math-Progressive Trading Strategy**. I have just passed out of 12th grade and am now looking to scale my strategy with investor funding.</p>
+    </section>
+    
+    <section class="slide" id="slide2">
+        <h2>Objective</h2>
+        <p>I wish to start my own trading firm, leveraging this **Math-Progressive Trading Strategy** to generate consistent profits. My goal is to scale this strategy with investor funding and establish a successful, data-driven trading operation.</p>
+    </section>
+    
+    <section class="slide" id="slide3">
+        <h2>The Strategy Overview</h2>
+        <p>Fixed Time Trading (FTT) is a form of trading where traders predict whether an asset’s price will go up or down within a fixed period (e.g., 1 minute). This strategy uses **Technical Analysis** with RSI and Stochastic Oscillator indicators for high-probability trade signals.</p>
+    </section>
+    
+    <section class="slide" id="slide4">
+        <h2>How the Strategy Works</h2>
+        <p>- **1-Minute Timeframe**: Trades are placed on short-term candles for higher accuracy.<br>
+           - **Trade Confirmation**: Multiple indicators must align to confirm a buy or sell signal.<br>
+           - **Execution**: Only enter trades when the majority of indicators provide the same direction, increasing the probability of success.</p>
+    </section>
+    
+    <section class="slide" id="slide5">
+        <h2>The Math Behind It (Progressive Sizing)</h2>
+        <p>- Trade sizes: $1, $2.17, $4.7, $10.22, $22.17, $48.12<br>
+           - If a trade is lost, the next trade amount increases in a structured manner.<br>
+           - The probability of losing six consecutive trades while following a data-driven system is extremely low.</p>
+    </section>
+    
+    <section class="slide" id="slide6">
+        <h2>Risk Management</h2>
+        <p>- Controlled Position Sizing: Stake increases are predefined to minimize large losses.<br>
+           - Loss Limit: After a set number of consecutive losses, trading stops to prevent excessive drawdowns.<br>
+           - Emotional Discipline: Following the system strictly removes impulsive decision-making.</p>
+    </section>
+    
+    <section class="slide" id="slide7">
+        <h2>Performance</h2>
+        <p>Here you can add real trading results, backtested data, and win-rate statistics to showcase success.</p>
+    </section>
+    
+    <section class="slide" id="slide8">
+        <h2>Why This Works</h2>
+        <p>- **Mathematical & Technical Edge**: Combines probability with technical analysis for reliable results.<br>
+           - **Not Gambling**: Trades are backed by data, strategy, and a structured risk model.<br>
+           - **Scalability**: With more capital, returns can be multiplied while risk remains controlled.</p>
+    </section>
+    
+    <section class="slide" id="slide9">
+        <h2>The Investor Opportunity</h2>
+        <p>- Investors can get involved through a **profit-sharing model** where profits are split.<br>
+           - Higher capital allows for **compounded growth**, maximizing earnings.<br>
+           - Trades are executed professionally with transparency and risk controls in place.</p>
+    </section>
+    
+    <section class="slide" id="slide10">
+        <h2>Why Funding Can Change Your Life</h2>
+        <p>Investors can potentially earn a huge amount of money if this strategy turns into profit due to the **profit-sharing model**. This is a high-probability, data-driven trading strategy with minimized risk. Be part of my growing **trading firm** and benefit from strategic investing.</p>
+    </section>
+    
+    <footer>
+        <p>Contact: <a href="mailto:ttl02079.anush@gmail.com" style="color: white;">ttl02079.anush@gmail.com</a></p>
+    </footer>
+</body>
+</html>
